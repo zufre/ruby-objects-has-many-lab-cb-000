@@ -17,7 +17,7 @@ class Artist
     song.artist = self
   end
   def self.song_count
-    if @songs.length = 0
+    if songs.length = 0
       nil
     else
       songs.length
