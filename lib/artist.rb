@@ -20,7 +20,7 @@ class Artist
     if @songs.length = 0
       nil
     else
-      @songs.length
+      songs.length
     end
   end
 
