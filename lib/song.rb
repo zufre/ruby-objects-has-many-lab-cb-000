@@ -4,10 +4,8 @@ class Song
     @name = name
   end
   def artist_name
-    if artist.name = nil
-      nil
-    else
-      artist.name
+    if self.artist != nil
+      self.artist.name
     end
   end
 
